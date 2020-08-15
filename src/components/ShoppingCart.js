@@ -42,7 +42,7 @@ class ShoppingCart extends React.Component {
     return (
       <div>
         <Switch>
-          <Route exact path="/Home">
+          <Route exact path="/">
             <Home></Home>
           </Route>
           <Route
